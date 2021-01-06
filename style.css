@@ -36,46 +36,25 @@ ul li a{
   
 
 }
-.profile{
+.profile1{
         width: 40%;
         float: left;
-        padding-left: 2%;  
-        
-        
+        padding-left: 2%;        
 }
-.profile1{
+.profile1 img{
+    width: 100%;
+}
+.profile{
    width: 40%;
    float: left;
    margin-left: 7%;
    margin-top: 10%;
-   
-
-}
-.profile1 h1{
-    font-size: 4rem;
-    font-family: 'Titillium Web', sans-serif;
-    
-
-    
-}
-.profile1 p{
-    font-size: 1rem;
-    color: #222831;
-    line-height: 25px;
-    
-}
-
-.profile img{
-        width: 100%;
-        
-        
-
 }
 .profile h1{
-    font-size: 3rem;
-    font-family: 'Anton', sans-serif;
-    
+    font-size: 4rem;
+    font-family: 'Titillium Web', sans-serif;    
 }
+
 .profile p{
     font-size: 1rem;
     color: #222831;
@@ -83,15 +62,16 @@ ul li a{
     
 }
 section{
-       border: 1px red solid;
+       
        height: 550px;
+       
 }
 button{
     
     
     margin-top: 20px;
     background: linear-gradient(180deg,#2c5d91,#d34e85);
-    border-radius: 10%;
+    border-radius: 5%;
     padding: 8px 10px;
     
    
@@ -113,3 +93,143 @@ button a{
 
 
 /* about me section ends here */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    height: 450px;
+    
+}
+.container h1{
+    font-size: 2rem;
+    letter-spacing: .5px;
+    margin-top: 30px;
+    font-family: 'Anton', sans-serif;
+    
+    
+   
+}
+.box img{
+    width: 80%;
+    
+}
+.box{
+    width: 29%;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
+    background-color: #fcf8ec;
+    margin-left: 2%;
+    padding-left: 2%;
+    float: left;
+    height: 270px;
+    text-align: justify;
+    margin-bottom: 80px;
+}
+.box p{
+    text-align: justify;
+    font-size: small;
+    color: #222831;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+.box h1{
+    font-size: 1.5rem;
+    text-align: justify;
+    font-family: 'Shrikhand', cursive;
+    margin-bottom: 8px;
+}
+.box::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.achievement-contact{
+    padding: 1% 7%;
+   
+    height: 350px;
+    color: rgb(24, 22, 22);
+    background-color: #fcf8e8;
+
+    
+    
+}
+.contact{
+    
+    width: 50%;
+    float: left;
+}
+.contact input,textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    background-color: #cae4db;
+    border: 1px black solid;
+    border-radius: 5px;
+    resize: none;
+}
+.achievement-contact h2{
+    margin-bottom: 20px;
+    color: #ef4f4f;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.contact1{
+    width: 30%;
+    
+}
+footer {
+    background: #0f0f0f;
+    padding: 1%;
+    text-align: center; 
+    color: white;
+    font-family: 'Titillium Web', sans-serif; 
+}
+footer p {
+    font-size: 0.8rem;
+    line-height: 32px;
+    
+}
+.icon-style {
+    color: white;
+    background-color: rgb(30, 5, 122);
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-top: 4px;
+    padding: 5px;
+}
+#chat-part{
+    width: 850px;
+    height: 210px;
+    border-radius: 40px;
+    padding: 20px;
+    margin: 100px auto;
+    background-size: cover;
+    background-image: url(images/background.jpeg);
+    background-position: center;
+}
+.chatting{
+    width: 50%;
+    float: left;
+
+}
+.chatting h1{
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: 20px;
+    font-family: 'Titillium Web', sans-serif; 
+    
+}
+.chatting button{
+    margin-top: 60px;
+    float: right;
+    margin-right: 40px;
+    
+
+}
